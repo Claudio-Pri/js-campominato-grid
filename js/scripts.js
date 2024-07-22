@@ -15,7 +15,7 @@ generateButton.addEventListener('click', () => {
         newCell.innerHTML = (i + 1);
         //aggiungo event listener sulla cella
         newCell.addEventListener('click', () => {
-            // newCell.classList.toggle('selected'); non funziona
+            newCell.classList.toggle('selected');
             console.log('cella n°', i + 1);
 
         });
