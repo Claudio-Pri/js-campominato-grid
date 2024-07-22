@@ -36,13 +36,14 @@ main {
     margin-bottom: 30px;
 }
 
-.container>button {
+.container>div>button {
     background-color: aqua;
+    color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 
@@ -68,4 +69,19 @@ main {
     align-items: center;
     cursor: pointer;
     transition: all .2s ease-in-out;
+}
+
+.container>label {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+
+}
+
+.container>#level {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 3px 5px;
+
+
 }

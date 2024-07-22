@@ -24,5 +24,4 @@ generateButton.addEventListener('click', () => {
     };
 });
 
-
 //===== Functions =====
