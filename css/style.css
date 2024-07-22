@@ -16,7 +16,8 @@ html {
 */
 main {
     height: 100vh;
-    background-color: bisque;
+    color: white;
+    background-color: black;
     padding: 30px 0;
 }
 
@@ -34,6 +35,8 @@ main {
 }
 
 .container>button {
+    background-color: aqua;
+    border: none;
     padding: 10px 15px;
     border-radius: 15px;
     font-weight: bold;
@@ -51,10 +54,16 @@ main {
     width: calc(100% / 10);
     height: 100px;
     border: 1px solid aqua;
-    background-color: lightcoral;
+    background-color: azure;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     /* cursor: pointer;
     transition: all .2s ease-in-out; */
+}
+
+.selected {
+    background-color: lightcoral;
+    border: 1px solid brown;
 }
