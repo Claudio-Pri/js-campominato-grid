@@ -11,5 +11,6 @@ for (let i = 0; i < 100; i++) {
     let newCell = document.createElement('div');
     newCell.innerHTML = (i + 1);
     gridContainer.append(newCell);
+    console.log(newCell, typeof newCell);
 }
 //===== Functions =====
